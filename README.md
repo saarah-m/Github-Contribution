@@ -4,7 +4,7 @@
 **Contribution Number:** 1
 **Student:** Saarah
 **Issue:** https://github.com/alveusgg/alveusgg/issues/480
-**Status:** Phase II - In Progress 
+**Status:** Phase II - Completed
 ---
 
 ## Why I Chose This Issue
@@ -37,19 +37,11 @@ This affects the user interface component, as well as may include inital storage
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
-
-### Steps to Reproduce
-
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+Environment mostly working, with some minor troubles regarding connecting to database (that arestill in progress). 
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **Commit showing reproduction:** 
 
 ---
 
