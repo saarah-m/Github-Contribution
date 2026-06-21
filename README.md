@@ -49,30 +49,11 @@ Environment mostly working, with some minor troubles regarding connecting to dat
 
 ### Analysis
 
-[Your analysis of the root cause - what's causing the issue?]
+This feature is an idea that has not been implemented yet, so including it would invovle adding the frontend UI for the wesbite, finding data of animal noises from various Alveus public videos, as well as updating the data package to include these noises. 
 
 ### Proposed Solution
 
-[High-level description of your fix approach]
-
-### Implementation Plan
-
-Using UMPIRE framework (adapted):
-
-**Understand:** [Restate the problem]
-
-**Match:** [What similar patterns/solutions exist in the codebase?]
-
-**Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
-
-**Implement:** [Link to your branch/commits as you work]
-
-**Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
-
-**Evaluate:** [How will you verify it works?]
+My proposed solution involves updating the repository to include these features, as well as scour Alveus's videos to find usable clips. For now, I maintain a smaller goal of clips, and hope to build on this in the future once the intial PR has been accepted. 
 
 ---
 
@@ -80,50 +61,26 @@ Using UMPIRE framework (adapted):
 
 ### Unit Tests
 
-- [ ] Test case 1: [Description]
-- [ ] Test case 2: [Description]
-- [ ] Test case 3: [Description]
-
-### Integration Tests
-
-- [ ] Integration scenario 1
-- [ ] Integration scenario 2
-
-### Manual Testing
-
-[What you tested manually and results]
-
----
-
-## Implementation Notes
-
-### Week [X] Progress
-
-[What you built this week, challenges faced, decisions made]
-
-### Week [Y] Progress
-
-[Continue documenting as you work]
+- Use testing features provided by the repo to ensure compliation, as well as compile on local machine to ensure sound clip properly plays as expected. 
 
 ### Code Changes
 
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+- **Files modified:** Changes occured in multiple files, a full list of which can be viewed in the PR requests made. 
+- **Key commits:** Largest new portions include new UI feature, sound clips added, as well as supprot for strucutre of these clips. 
+- **Approach decisions:** This approach was made, as it followed along wtih the current data package in-place. This feature allows for the data to be used across all Alveus resources, not just on the site itself. 
 
 ---
 
 ## Pull Request
 
-**PR Link:** [GitHub PR URL when submitted]
+**PR Links: [Data Repo](https://github.com/alveusgg/alveusgg/pull/2196) & [Site Repo]([url](https://github.com/alveusgg/data/pull/288#event-26946375022))
 
-**PR Description:** [Draft or final PR description - much of the content above can be adapted]
+**PR Description:** Final PRs included decriptions made above. Currently, I am waiting on a response for the maintainer, and for the PR to be merged. 
 
 **Maintainer Feedback:**
-- [Date]: [Summary of feedback received]
-- [Date]: [How you addressed it]
+- [Date]: Inital feedback suggest changes of the data structure, which were made in most recent comit. 
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+**Status:** [Awaiting review]
 
 ---
 
